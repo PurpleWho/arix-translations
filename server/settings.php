@@ -1,37 +1,37 @@
 <?php
 
 return [
-    'settings' => 'Settings',
+    'settings' => 'Inställningar',
 
     'sftp' => [
-        'title' => 'SFTP Details',
-        'server-address' => 'Server Address',
-        'username' => 'Username',
-        'description' => 'Your SFTP password is the same as the password you use to access this panel.',
-        'launch-sftp' => 'Launch SFTP',
+        'title' => 'SFTP Detaljer',
+        'server-address' => 'Server Adress',
+        'username' => 'Användarnamn',
+        'description' => 'Ditt SFTP Lösenord är detsamma som lösenordet du använder för att komma åt den här panelen.',
+        'launch-sftp' => 'Starta SFTP',
     ],
 
     'rename' => [
-        'title' => 'Change Server Details',
-        'server-name' => 'Server Name',
-        'server-description' => 'Server Description',
-        'save' => 'Save',
+        'title' => 'Ändra Serverdetaljer',
+        'server-name' => 'Server Namn',
+        'server-description' => 'Serverbeskrivning',
+        'save' => 'Spara',
     ],
 
     'debug' => [
-        'title' => 'Debug Information',
-        'node' => 'Node',
+        'title' => 'Felsökningsinformation',
+        'node' => 'Nod',
         'server-id' => 'Server ID',
     ],
 
     'reinstall' => [
-        'title' => 'Reinstall Server',
-        'reinstall-started' => 'Your server has begun the reinstallation process.',
-        'confirm-reinstallation' => 'Confirm server reinstallation',
-        'yes-reinstall' => 'Yes, reinstall server',
-        'are-you-sure' => 'Your server will be stopped and some files may be deleted or modified during this process, are you sure you wish to continue?',
-        'desc-1' => 'Reinstalling your server will stop it, and then re-run the installation script that initially set it up.',
-        'desc-2' => 'Some files may be deleted or modified during this process, please back up your data before continuing.',
-        'reinstall-server' => 'Reinstall Server',
+        'title' => 'Installera Om Servern',
+        'reinstall-started' => 'Din server har påbörjat ominstallationsprocessen.',
+        'confirm-reinstallation' => 'Bekräfta ominstallationen av servern',
+        'yes-reinstall' => 'Ja, installera om servern',
+        'are-you-sure' => 'Din server kommer att stoppas och vissa filer kan raderas eller ändras under denna process, är du säker på att du vill fortsätta?',
+        'desc-1' => 'Om du installerar om din server stoppas den och kör sedan om installationsskriptet som ursprungligen ställde in den.',
+        'desc-2' => 'Vissa filer kan raderas eller ändras under denna process, säkerhetskopiera dina data innan du fortsätter.',
+        'reinstall-server' => 'Installera Om Servern',
     ],
 ];
