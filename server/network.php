@@ -1,18 +1,18 @@
 <?php
 
 return[
-    'network' => 'Network',
-    'manage-allocation' => 'Manage allocation',
-    'create-allocation' => 'Create Allocation',
-    'currently-using' => 'You are currently using {{current}} of {{max}} allowed allocations for this server.',
+    'network' => 'Nätverk',
+    'manage-allocation' => 'Hantera allokering',
+    'create-allocation' => 'Skapa Allokering',
+    'currently-using' => 'Du använder för närvarande {{current}} av {{max}} tillåtna Allokeringar för denna server.',
 
     'IP' => 'IP',
     'port' => 'Port',
-    'notes' => 'Notes',
-    'primary' => 'Primary',
-    'make-primary' => 'Make Primary',
+    'notes' => 'Anteckningar',
+    'primary' => 'Primär',
+    'make-primary' => 'Gör primära',
 
-    'remove-allocation' => 'Remove Allocation',
-    'remove-allocation-description' => 'This allocation will be immediately removed from your server.',
-    'delete' => 'Delete'
+    'remove-allocation' => 'Ta Bort Allokering',
+    'remove-allocation-description' => 'Denna allokering kommer omedelbart att tas bort från din server.',
+    'delete' => 'Radera'
 ];
