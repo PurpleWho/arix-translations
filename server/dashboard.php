@@ -1,22 +1,22 @@
 <?php
 
 return [
-    'dashboard' => 'Dashboard',
+    'dashboard' => 'Instrumentbräda',
 
     'sftp' => [
-        'title' => 'SFTP Details',
-        'server-address' => 'Server Address',
-        'username' => 'Username',
-        'description' => 'Your SFTP password is the same as the password you use to access this panel.',
-        'launch-sftp' => 'Launch SFTP',
+        'title' => 'SFTP Detaljer',
+        'server-address' => 'Server Adress',
+        'username' => 'Användarnamn',
+        'description' => 'Ditt SFTP-lösenord är samma som lösenordet du använder för att komma åt den här panelen.',
+        'launch-sftp' => 'Starta SFTP',
     ],
     'server-info' => [
         'title' => 'Server Info',
-        'hostname' => 'Hostname',
-        'node-id' => 'Node ID',
+        'hostname' => 'Värdnamn',
+        'node-id' => 'Nod ID',
         'server-id' => 'Server ID',
         
-        'uptime' => 'Uptime',
+        'uptime' => 'Upptid',
         'server-ip' => 'Server IP',
     ],
 ];
